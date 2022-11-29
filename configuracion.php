@@ -3,7 +3,7 @@
 
     // Datos de conexión a la base de datos
     $host = "Host" ;
-    $bdname = "";
+    $bdname = "gestorTaller";
     define("DB_USUARIO", "gestor");
     define("DB_CONTRASENA", "");
 

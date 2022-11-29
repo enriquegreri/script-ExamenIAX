@@ -6,7 +6,7 @@ fi
 
 installation=0
 while [[ $installation != "webserver" && $installation != "mysql" && $installation != "notinstall" ]]; do
-    read -p "Que quieres instalar? (proxy|webserver|mysql|phpmyadmin|notinstall)" installation
+    read -p "Que quieres instalar? (webserver|mysql|notinstall)" installation
 done
 apt update > /dev/null &> /dev/null
 if [[ $installation = "webserver" ]]; then
